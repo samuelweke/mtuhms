@@ -2792,6 +2792,18 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
 }
 
+.btn-custom {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #3c3f44;
+    border-color: #3c3f44;
+}
+
 .btn-secondary {
     color: #fff;
     background-color: #858796;
@@ -11012,6 +11024,10 @@ a:focus {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #1cc88a), to(#13855c));
     background-image: linear-gradient(180deg, #1cc88a 10%, #13855c 100%);
     background-size: cover;
+}
+
+.bg-gradient-custom {
+    background-color: #212529;
 }
 
 .bg-gradient-info {
