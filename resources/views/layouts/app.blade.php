@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     
     
+    
     <style>
         body{
         overflow-x: hidden;

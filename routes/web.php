@@ -16,5 +16,6 @@ Route::get('/', function () {
 });
 
 Route::view('/signin', 'signin');
+Route::view('/patient', 'patient.home');
 
 
