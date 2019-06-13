@@ -15,12 +15,20 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
-    
+    <!--Calendar Style-->
+    <link rel="stylesheet" href="{{ asset('css/calendar/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/calendar/daygrid.css') }}">
+
+
+
     <!--Scripts-->
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     <!-- Dashboard JS -->
     <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
+    <!-- Calendar JS -->
+    <script src="{{ asset('js/calendar/main.js') }}"></script>
+    <script src="{{ asset('js/calendar/daygrid.js') }}"></script>
 
     <style>
         body{

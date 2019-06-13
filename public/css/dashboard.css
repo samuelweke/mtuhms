@@ -11509,7 +11509,7 @@ a:focus {
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
     display: block;
-    color: #3a3b45;
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     border-radius: 0.35rem;
     white-space: nowrap;
