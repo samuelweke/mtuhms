@@ -15,6 +15,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <!--Calendar Style-->
     <link rel="stylesheet" href="{{ asset('css/calendar/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/calendar/daygrid.css') }}">
