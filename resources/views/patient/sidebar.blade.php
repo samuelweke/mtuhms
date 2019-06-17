@@ -13,14 +13,14 @@
 
       <!-- Dashboard Sidebar -->
       <li class="nav-item active">
-        <a class="nav-link" href="{{ url('/patient') }}">
+        <a class="nav-link" href="{{ url('/patient') }}" >
           <i class="fas fa-fw fa-clinic-medical"></i>
           <span>Dashboard</span></a>
       </li>
 
       <!-- Appointment Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('/patient/appointment') }}">
+        <a class="nav-link" href="{{ url('/patient/appointment') }}" >
           <i class="fas fa-fw fa-calendar-alt"></i>
           <span>Appointment</span>
         </a>
@@ -28,7 +28,7 @@
 
       <!-- Prescription Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('patient/prescription') }}">
+        <a class="nav-link" href="{{ url('patient/prescription') }}" >
           <i class="fas fa-fw fa-prescription"></i>
           <span>Prescription</span>
         </a>
@@ -36,7 +36,7 @@
 
       <!-- Report Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('/patient/report') }}">
+        <a class="nav-link" href="{{ url('/patient/report') }}" >
           <i class="far fa-fw fa-hospital"></i>
           <span>Report</span>
         </a>
@@ -44,7 +44,7 @@
 
       <!-- Profile Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('patient/profile') }}">
+        <a class="nav-link" href="{{ url('patient/profile') }}" >
           <i class="fas fa-fw fa-user"></i>
           <span>Profile</span>
         </a>
@@ -180,3 +180,4 @@
 
         </nav>
         <!-- End of Topbar -->
+        
