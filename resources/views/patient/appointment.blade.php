@@ -9,7 +9,7 @@
         <div class="card shadow mb-4 mt-5">
             <div class="card-header py-3 d-sm-flex align-items-center justify-content-between">
               <h6 class="m-0 font-weight-bold text-dark">Appointment</h6>
-               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#apply-for-appointment">Apply for Appointment</button>
+               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#apply-for-appointment"><i class="fas fa-envelope pr-2"></i>Apply for Appointment</button>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -31,7 +31,7 @@
                       <td>Accepted</td>
                       <td>
                           <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger">Delete</button></td>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                     </tr>
                     <tr>
                       <td>10 April, 2019</td>
@@ -40,7 +40,7 @@
                       <td>Pending</td>
                       <td>
                           <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger">Delete</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>
                     <tr>
@@ -50,7 +50,7 @@
                       <td>Rejected</td>
                       <td>
                           <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger">Delete</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>
                   </tbody>
@@ -94,7 +94,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Request Appointment</button>
                     </div>
                 </div>
             </div>
