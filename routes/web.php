@@ -10,12 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/patient', 'PatientController@dashboard');
+Route::get('/patient/prescription', 'PatientController@prescription');
+Route::get('/patient/appointment', 'PatientController@appointment');
+Route::get('/patient/report', 'PatientController@report');
+Route::get('/patient/profile', 'PatientController@profile');
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::view('/signin', 'signin');
-Route::view('/patient', 'patient.dashboard');
 
 

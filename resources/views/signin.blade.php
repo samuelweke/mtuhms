@@ -13,12 +13,12 @@
 				<form>                    
 	                <div class="form-horizontal">
 	                    <div class="form-group">
-	                      <input type="email" class="form-control" placeholder="Matric No" required />
+	                      <input type="email" class="form-control" placeholder="Email" required />
 	                    </div>
 	                    <div class="form-group">
 						   <div>
-						      	<input type="password" name="password"  class="form-control" placeholder="Password" required />
-						    </div>
+						    	<input type="password" name="password"  class="form-control" placeholder="Password" required />
+						   </div>
 						</div>
 	                  </div>
                     <button type="submit" class="btn btn-green btn-block">Login</button>

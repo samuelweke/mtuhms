@@ -16,9 +16,12 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
     <!--Calendar Style-->
     <link rel="stylesheet" href="{{ asset('css/calendar/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/calendar/daygrid.css') }}">
+    <!--DataTables Style-->
+    <link rel="stylesheet" href="{{ asset('css/datatables/dataTables.bootstrap4.css') }}">
 
 
 
@@ -30,6 +33,11 @@
     <!-- Calendar JS -->
     <script src="{{ asset('js/calendar/main.js') }}"></script>
     <script src="{{ asset('js/calendar/daygrid.js') }}"></script>
+    <!--DataTables JS-->
+    <script src="{{ asset('js/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('js/datatables/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('js/datatables/datatables-demo.js') }}"></script>
+    
 
     <style>
         body{

@@ -13,28 +13,22 @@
 
       <!-- Dashboard Sidebar -->
       <li class="nav-item active">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ url('/patient') }}">
           <i class="fas fa-fw fa-clinic-medical"></i>
           <span>Dashboard</span></a>
       </li>
 
       <!-- Appointment Sidebar -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        <a class="nav-link" href="{{ url('/patient/appointment') }}">
           <i class="fas fa-fw fa-calendar-alt"></i>
           <span>Appointment</span>
         </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class=" py-2 collapse-inner ">
-            <a class="collapse-item" href="">Accepted Appointment</a>
-            <a class="collapse-item" href="">Pending Appointment</a>
-          </div>
-        </div>
       </li>
 
       <!-- Prescription Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ url('patient/prescription') }}">
           <i class="fas fa-fw fa-prescription"></i>
           <span>Prescription</span>
         </a>
@@ -42,7 +36,7 @@
 
       <!-- Report Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ url('/patient/report') }}">
           <i class="far fa-fw fa-hospital"></i>
           <span>Report</span>
         </a>
@@ -50,7 +44,7 @@
 
       <!-- Profile Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ url('patient/profile') }}">
           <i class="fas fa-fw fa-user"></i>
           <span>Profile</span>
         </a>
@@ -125,7 +119,7 @@
                   </div>
                   <div>
                     <div class="small text-gray-500">December 12, 2019</div>
-                    <span class="font-weight-bold">You have a new message</span>
+                    <span class="font-weight-bold">Your appointment has been accepted</span>
                   </div>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -135,7 +129,7 @@
                   </div>
                   <div>
                     <div class="small text-gray-500">December 7, 2019</div>
-                    You have a new message
+                    Your appointment day was changed
                   </div>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -145,7 +139,7 @@
                   </div>
                   <div>
                     <div class="small text-gray-500">December 2, 2019</div>
-                    You have a new message
+                    Your password has been successfully changed
                   </div>
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
