@@ -16,7 +16,6 @@ Route::get('/patient/appointment', 'PatientController@appointment');
 Route::get('/patient/report', 'PatientController@report');
 Route::get('/patient/profile', 'PatientController@profile');
 
-
-Route::view('/signin', 'signin');
+Route::view('/', 'signin');
 
 
