@@ -30,7 +30,7 @@
                       <td>John Doe</td>
                       <td>Accepted</td>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                     </tr>
                     <tr>
@@ -39,7 +39,7 @@
                       <td>John Doe</td>
                       <td>Pending</td>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>
@@ -49,7 +49,7 @@
                       <td>John Doe</td>
                       <td>Rejected</td>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>
