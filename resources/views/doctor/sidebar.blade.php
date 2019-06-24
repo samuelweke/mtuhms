@@ -19,14 +19,6 @@
           <span>Dashboard</span></a>
       </li>
 
-      <!-- Patient Sidebar -->
-      <li class="nav-item">
-        <a class="nav-link" href="{{ url('doctor/patient') }}" >
-          <i class="fas fa-fw fa-first-aid"></i>
-          <span>Patient</span>
-        </a>
-      </li>
-
       <!-- Appointment Sidebar -->
       <li class="nav-item">
         <a class="nav-link" href="{{ url('/doctor/appointment') }}" >
@@ -35,27 +27,28 @@
         </a>
       </li>
 
-      <!-- Nurse Sidebar -->
+
+      <!-- Patient Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('/doctor/nurse') }}" >
-          <i class="fas fa-fw fa-syringe"></i>
-          <span>Nurse</span>
+        <a class="nav-link" href="{{ url('doctor/patient') }}" >
+          <i class="fas fa-fw fa-user"></i>
+          <span>Patient</span>
         </a>
       </li>
 
-      <!-- Pharmacist Sidebar -->
+      <!-- Prescription Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('doctor/pharmacist') }}" >
+        <a class="nav-link" href="{{ url('/doctor/prescription') }}" >
           <i class="fas fa-fw fa-prescription"></i>
-          <span>Pharmacist</span>
+          <span>Prescription</span>
         </a>
       </li>
 
-      <!-- Laboratorist Sidebar -->
+      <!-- Report Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('doctor/laboratorist') }}" >
-          <i class="fas fa-fw fa-prescription-bottle-alt"></i>
-          <span>Laboratorist</span>
+        <a class="nav-link" href="{{ url('doctor/report') }}" >
+          <i class="far fa-fw fa-hospital"></i>
+          <span>Report</span>
         </a>
       </li>
 

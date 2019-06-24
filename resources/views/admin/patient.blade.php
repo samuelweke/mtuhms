@@ -85,6 +85,18 @@
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>
+                    <tr>
+                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Afolabi Omolade</td>
+                      <td>afolabio@mtu.edu.ng</td>
+                      <td>15010301002</td>
+                      <td>Female</td>
+                      <th>21</th>
+                      <td>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
