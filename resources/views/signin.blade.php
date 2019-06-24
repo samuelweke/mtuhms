@@ -1,13 +1,15 @@
 @extends('layouts.app')
 
-<link rel="stylesheet" href="{{ asset('css/signin.css') }}">
+<link rel="stylesheet" href="{{ asset('css/sign.css') }}">
+
 
 @section('content')
     
     <div class="main-content">
 		<div class="login-area">    
 			<div class="login">
-				<div class="header">
+				<div class="header text-center"> 					
+					<i class="fas fa-fw fa-stethoscope fa-3x mb-2"></i>
 					<h1> MTU Hospital <br> Management System </h1>
 				</div>
 				<form>                    

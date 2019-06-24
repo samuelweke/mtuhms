@@ -2,54 +2,54 @@
 
 @section('content')
     
-  @include('patient.sidebar')
+  @include('admin.sidebar')
 
     <!-- Begin Page Content -->
     <div class="container-fluid">
         <div class="card shadow mb-4 mt-5">
             <div class="card-header py-3 d-sm-flex align-items-center justify-content-between">
-              <h6 class="m-0 font-weight-bold text-dark">Appointment</h6>
-               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#apply-for-appointment"><i class="fas fa-envelope pr-2"></i>Apply for Appointment</button>
+              <h6 class="m-0 font-weight-bold text-dark">Doctor</h6>
+               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#add-doctor"><i class="fas fa-plus pr-2"></i>Add Doctor</button>
             </div>
             <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Date</th>
-                      <th>Patient</th>
-                      <th>Doctor</th>
-                      <th>Status</th>
+                      <th>Image</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Phone </th>
                       <th>Option</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>12 June, 2019</td>
-                      <td>Odom Ifeanyi</td>
-                      <td>John Doe</td>
-                      <td>Accepted</td>
+                    <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Ben Carson</td>
+                      <td>Ben@yahoo.com</td>
+                      <td>08182837564</td>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                     </tr>
                     <tr>
-                      <td>10 April, 2019</td>
-                      <td>Odom Ifeanyi</td>
-                      <td>John Doe</td>
-                      <td>Pending</td>
+                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Paul James</td>
+                      <td>pauljames@gmail.com</td>
+                      <td>08023554318</td>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>
                     <tr>
-                      <td>13 May, 2019</td>
-                      <td>Odom Ifeanyi</td>
-                      <td>John Doe</td>
-                      <td>Rejected</td>
+                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Chris Smalling</td>
+                      <td>chrissmalling@yahoo.com</td>
+                      <td>07034345523</td>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>

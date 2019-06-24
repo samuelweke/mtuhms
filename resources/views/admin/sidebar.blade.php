@@ -14,38 +14,70 @@
 
       <!-- Dashboard Sidebar -->
       <li class="nav-item active">
-        <a class="nav-link" href="{{ url('/patient') }}" >
+        <a class="nav-link" href="{{ url('/admin') }}" >
           <i class="fas fa-fw fa-clinic-medical"></i>
           <span>Dashboard</span></a>
       </li>
 
-      <!-- Appointment Sidebar -->
+      <!-- Doctor Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('/patient/appointment') }}" >
-          <i class="fas fa-fw fa-calendar-alt"></i>
-          <span>Appointment</span>
+        <a class="nav-link" href="{{ url('/admin/doctor') }}" >
+          <i class="fas fa-fw fa-stethoscope"></i>
+          <span>Doctor</span>
         </a>
       </li>
 
-      <!-- Prescription Sidebar -->
+      <!-- Patient Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('patient/prescription') }}" >
+        <a class="nav-link" href="{{ url('admin/patient') }}" >
+          <i class="fas fa-fw fa-first-aid"></i>
+          <span>Patient</span>
+        </a>
+      </li>
+
+      <!-- Nurse Sidebar -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('/admin/nurse') }}" >
+          <i class="fas fa-fw fa-syringe"></i>
+          <span>Nurse</span>
+        </a>
+      </li>
+
+      <!-- Pharmacist Sidebar -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('admin/pharmacist') }}" >
           <i class="fas fa-fw fa-prescription"></i>
-          <span>Prescription</span>
+          <span>Pharmacist</span>
         </a>
       </li>
 
-      <!-- Report Sidebar -->
+      <!-- Laboratorist Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('/patient/report') }}" >
-          <i class="far fa-fw fa-hospital"></i>
-          <span>Report</span>
+        <a class="nav-link" href="{{ url('admin/laboratorist') }}" >
+          <i class="fas fa-fw fa-prescription-bottle-alt"></i>
+          <span>Laboratorist</span>
+        </a>
+      </li>
+
+      <!-- Record-Officer Sidebar -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('admin/record-officer') }}" >
+          <i class="fas fa-fw fa-file-medical"></i>
+          <span>Record-Officer</span>
+        </a>
+      </li>
+
+      <!-- Bed/Ward Sidebar -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('admin/bed') }}" >
+          <i class="fas fa-fw fa-bed"></i>
+          <span>Bed/Ward</span>
         </a>
       </li>
 
       <!-- Profile Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('patient/profile') }}" >
+        <a class="nav-link" href="{{ url('admin/profile') }}" >
           <i class="fas fa-fw fa-user"></i>
           <span>Profile</span>
         </a>
@@ -152,7 +184,7 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Ifeanyi Odom</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
                 <img class="img-profile rounded-circle" src="{{ asset('img/user-pic.png') }}">
               </a>
               <!-- Dropdown - User Information -->

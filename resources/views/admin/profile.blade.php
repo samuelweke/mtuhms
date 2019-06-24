@@ -2,7 +2,7 @@
 
 @section('content')
     
-  @include('patient.sidebar')
+  @include('admin.sidebar')
 
         <!-- Begin Page Content -->
         <div class="container-fluid">

@@ -2,54 +2,86 @@
 
 @section('content')
     
-  @include('patient.sidebar')
+  @include('admin.sidebar')
 
     <!-- Begin Page Content -->
     <div class="container-fluid">
         <div class="card shadow mb-4 mt-5">
             <div class="card-header py-3 d-sm-flex align-items-center justify-content-between">
-              <h6 class="m-0 font-weight-bold text-dark">Appointment</h6>
-               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#apply-for-appointment"><i class="fas fa-envelope pr-2"></i>Apply for Appointment</button>
+              <h6 class="m-0 font-weight-bold text-dark">Patient</h6>
+               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#add-doctor"><i class="fas fa-plus pr-2"></i>Add Patient</button>
             </div>
             <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Date</th>
-                      <th>Patient</th>
-                      <th>Doctor</th>
-                      <th>Status</th>
+                      <th>Image</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Matric No</th>
+                      <th>Sex</th>
+                      <th>Age</th>
                       <th>Option</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>12 June, 2019</td>
-                      <td>Odom Ifeanyi</td>
-                      <td>John Doe</td>
-                      <td>Accepted</td>
+                    <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Akintomide Jeremiah</td>
+                      <td>jerry@yahoo.com</td>
+                      <td>15010301021</td>
+                      <td>Male</td>
+                      <th>20</th>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                     </tr>
                     <tr>
-                      <td>10 April, 2019</td>
-                      <td>Odom Ifeanyi</td>
-                      <td>John Doe</td>
-                      <td>Pending</td>
+                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Anthony Tejiri</td>
+                      <td>tejiri@gmail.com</td>
+                      <td>15010301025</td>
+                      <td>Male</td>
+                      <th>21</th>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>
                     <tr>
-                      <td>13 May, 2019</td>
-                      <td>Odom Ifeanyi</td>
-                      <td>John Doe</td>
-                      <td>Rejected</td>
+                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Bello Grace</td>
+                      <td>graceb@yahoo.com</td>
+                      <td>15010301005</td>
+                      <td>Female</td>
+                      <th>23</th>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Emmanuel John</td>
+                      <td>johnnie@yahoo.com</td>
+                      <td>15010301012</td>
+                      <td>Male</td>
+                      <th>20</th>
+                      <td>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                      <td>Lawal Shola</td>
+                      <td>shola@yahoo.com</td>
+                      <td>15010301013</td>
+                      <td>Female</td>
+                      <th>23</th>
+                      <td>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
                       </td>
                     </tr>

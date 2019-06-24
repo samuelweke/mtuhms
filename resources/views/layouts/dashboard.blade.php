@@ -43,6 +43,7 @@
         body{
         overflow-x: hidden;
         background: white;
+        font-family: lato !important;
         }
     </style>
     

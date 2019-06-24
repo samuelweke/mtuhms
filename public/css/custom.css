@@ -1,3 +1,8 @@
+.change-pass-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .border-top-green {
     border-top: 0.25rem solid #80b425 !important;
 }

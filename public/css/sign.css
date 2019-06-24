@@ -11,11 +11,11 @@
 }
 
 .login {
-    padding: 30px 15px 30px 15px;
+    padding: 50px 15px 50px 15px;
 }
 
 .login .header {
-    padding-top: 30px;
+    padding-top: 25px;
     padding-bottom: 60px;
 }
 
@@ -46,6 +46,7 @@
 .login-footer p {
     font-size: 12px !important;
     color: #fff;
+    margin-top: 7px;
 }
 
 .image-area {

@@ -14,38 +14,54 @@
 
       <!-- Dashboard Sidebar -->
       <li class="nav-item active">
-        <a class="nav-link" href="{{ url('/patient') }}" >
+        <a class="nav-link" href="{{ url('/doctor') }}" >
           <i class="fas fa-fw fa-clinic-medical"></i>
           <span>Dashboard</span></a>
       </li>
 
+      <!-- Patient Sidebar -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('doctor/patient') }}" >
+          <i class="fas fa-fw fa-first-aid"></i>
+          <span>Patient</span>
+        </a>
+      </li>
+
       <!-- Appointment Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('/patient/appointment') }}" >
+        <a class="nav-link" href="{{ url('/doctor/appointment') }}" >
           <i class="fas fa-fw fa-calendar-alt"></i>
           <span>Appointment</span>
         </a>
       </li>
 
-      <!-- Prescription Sidebar -->
+      <!-- Nurse Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('patient/prescription') }}" >
-          <i class="fas fa-fw fa-prescription"></i>
-          <span>Prescription</span>
+        <a class="nav-link" href="{{ url('/doctor/nurse') }}" >
+          <i class="fas fa-fw fa-syringe"></i>
+          <span>Nurse</span>
         </a>
       </li>
 
-      <!-- Report Sidebar -->
+      <!-- Pharmacist Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('/patient/report') }}" >
-          <i class="far fa-fw fa-hospital"></i>
-          <span>Report</span>
+        <a class="nav-link" href="{{ url('doctor/pharmacist') }}" >
+          <i class="fas fa-fw fa-prescription"></i>
+          <span>Pharmacist</span>
+        </a>
+      </li>
+
+      <!-- Laboratorist Sidebar -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('doctor/laboratorist') }}" >
+          <i class="fas fa-fw fa-prescription-bottle-alt"></i>
+          <span>Laboratorist</span>
         </a>
       </li>
 
       <!-- Profile Sidebar -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('patient/profile') }}" >
+        <a class="nav-link" href="{{ url('doctor/profile') }}" >
           <i class="fas fa-fw fa-user"></i>
           <span>Profile</span>
         </a>
@@ -152,7 +168,7 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Ifeanyi Odom</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Doctor</span>
                 <img class="img-profile rounded-circle" src="{{ asset('img/user-pic.png') }}">
               </a>
               <!-- Dropdown - User Information -->
