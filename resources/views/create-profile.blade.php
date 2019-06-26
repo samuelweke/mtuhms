@@ -53,9 +53,9 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="" class="col-sm-3 control-label col-form-label">Other Name</label>
+                                    <label for="" class="col-sm-3 control-label col-form-label">Middle Name</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="" placeholder="Other Name" autocomplete="on">
+                                        <input type="text" class="form-control" id="" placeholder="Middle Name" autocomplete="on">
                                     </div>
                                 </div>
                                 <div class="form-group row">
