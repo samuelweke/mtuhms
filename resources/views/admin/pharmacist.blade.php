@@ -8,8 +8,8 @@
     <div class="container-fluid">
         <div class="card shadow mb-4 mt-5">
             <div class="card-header py-3 d-sm-flex align-items-center justify-content-between">
-              <h6 class="m-0 font-weight-bold text-dark">Laboratorist</h6>
-               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#"><i class="fas fa-plus pr-2"></i>Add Laboratorist</button>
+              <h6 class="m-0 font-weight-bold text-dark">Pharmacist</h6>
+               <button class=" d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#"><i class="fas fa-plus pr-2"></i>Add Pharmacist</button>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -30,10 +30,10 @@
                       <td>Akintomide Jeremiah</td>
                       <td>jerry@yahoo.com</td>
                       <td></td>
-                      <td>09032432656</td>
+                      <td>08029238485</td>
                       <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-primary" data-toggle="modal" data-target="#edit-appointment">Edit</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#">View</button>
+                          <button class="d-sm-inline-block btn btn-sm btn-primary" data-toggle="modal" data-target="#">Edit</button>
                           <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></i></button></td>
                     </tr>
                   </tbody>

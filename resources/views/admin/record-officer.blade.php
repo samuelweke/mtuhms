@@ -19,6 +19,7 @@
                       <th>Image</th>
                       <th>Name</th>
                       <th>Email</th>
+                      <th>Address</th>
                       <th>Phone</th>
                       <th>Option</th>
                     </tr>
@@ -28,11 +29,12 @@
                     <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
                       <td>Akintomide Jeremiah</td>
                       <td>jerry@yahoo.com</td>
+                      <td></td>
                       <td>08029238485</td>
                       <td>
                           <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#">View</button>
                           <button class="d-sm-inline-block btn btn-sm btn-primary" data-toggle="modal" data-target="#">Edit</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></i></button></td>
                     </tr>
                   </tbody>
                 </table>

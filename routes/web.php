@@ -15,6 +15,7 @@ Route::get('/admin','AdminController@dashboard');
 Route::get('/admin/doctor','AdminController@doctor');
 Route::get('/admin/patient','AdminController@patient');
 Route::get('/admin/nurse','AdminController@nurse');
+Route::get('/admin/pharmacist','AdminController@pharmacist');
 Route::get('/admin/laboratorist','AdminController@lab');
 Route::get('/admin/record-officer','AdminController@recordOfficer');
 Route::get('/admin/bed','AdminController@bed');

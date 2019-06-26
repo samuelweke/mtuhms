@@ -22,7 +22,11 @@ class AdminController extends Controller
         return view('admin.nurse');
     }
 
-     public function lab(){
+    public function pharmacist(){
+        return view('admin.pharmacist');
+    }
+
+    public function lab(){
         return view('admin.lab');
     }
 

@@ -19,6 +19,7 @@
                       <th>Image</th>
                       <th>Name</th>
                       <th>Email</th>
+                      <th>Address</th>
                       <th>Phone </th>
                       <th>Option</th>
                     </tr>
@@ -28,6 +29,7 @@
                         <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
                         <td>Titilayo Afolayan</td>
                         <td>titilayo@hms.com</td>
+                        <td></td>
                         <td>08182837564</td>
                         <td>
                             <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#">Edit</button>
