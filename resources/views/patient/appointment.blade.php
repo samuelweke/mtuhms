@@ -17,7 +17,6 @@
                   <thead>
                     <tr>
                       <th>Date</th>
-                      <th>Patient</th>
                       <th>Doctor</th>
                       <th>Status</th>
                       <th>Option</th>
@@ -26,31 +25,28 @@
                   <tbody>
                     <tr>
                       <td>12 June, 2019</td>
-                      <td>Odom Ifeanyi</td>
                       <td>John Doe</td>
                       <td>Accepted</td>
                       <td>
                           <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger">Cancel</button></td>
                     </tr>
                     <tr>
                       <td>10 April, 2019</td>
-                      <td>Odom Ifeanyi</td>
                       <td>John Doe</td>
                       <td>Pending</td>
                       <td>
                           <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger">Cancel</button></td>
                       </td>
                     </tr>
                     <tr>
                       <td>13 May, 2019</td>
-                      <td>Odom Ifeanyi</td>
                       <td>John Doe</td>
                       <td>Rejected</td>
                       <td>
                           <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">View</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
+                          <button class="d-sm-inline-block btn btn-sm btn-danger">Cancel</button></td>
                       </td>
                     </tr>
                   </tbody>

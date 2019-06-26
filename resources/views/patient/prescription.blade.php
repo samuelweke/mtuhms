@@ -2,7 +2,7 @@
 
 @section('content')
     
-  @include('patient.sidebar')
+  @include('doctor.sidebar')
 
     <!-- Begin Page Content -->
     <div class="container-fluid">
@@ -17,7 +17,6 @@
                   <thead>
                     <tr>
                       <th>Date</th>
-                      <th>Patient</th>
                       <th>Doctor</th>
                       <th>Options</th>
                     </tr>
@@ -25,19 +24,16 @@
                   <tbody>
                     <tr>
                       <td>12 June, 2019</td>
-                      <td>Odom Ifeanyi</td>
                       <td>John Doe</td>
                       <td><button class="rounded-pill d-sm-inline-block btn btn-sm btn-dark">View Prescription</button></td>
                     </tr>
                     <tr>
                       <td>10 April, 2019</td>
-                      <td>John Emmanuel</td>
                       <td>John Doe</td>
                       <td><button class="rounded-pill d-sm-inline-block btn btn-sm btn-dark">View Prescription</button></td>
                     </tr>
                     <tr>
                       <td>13 May, 2019</td>
-                      <td>Anthony</td>
                       <td>John Doe</td>
                       <td><button class="rounded-pill d-sm-inline-block btn btn-sm btn-dark">View Prescription</button></td>
                     </tr>
