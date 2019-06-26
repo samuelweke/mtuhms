@@ -49,15 +49,15 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="" class="col-sm-3 control-label col-form-label">Age</label>
-                                <div class="col-sm-9">
-                                    <input type="number" class="form-control" id="" placeholder="Age">
-                                </div>
-                            </div>
-                            <div class="form-group row">
                                 <label for="" class="col-sm-3 control-label col-form-label">Matric No</label>
                                 <div class="col-sm-9">
                                     <input type="number" class="form-control" id="" placeholder="Matric No" autocomplete="on">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-sm-3 control-label col-form-label">Phone No</label>
+                                <div class="col-sm-9">
+                                    <input type="number" class="form-control" id="" placeholder="Phone No" autocomplete="on">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -111,24 +111,6 @@
                                     <input type="text" class="form-control" id="" placeholder="State of Origin" >
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label for="" class="col-sm-3 control-label col-form-label">Tribe</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="" placeholder="Tribe" >
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="" class="col-sm-3 control-label col-form-label">Religion</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="" placeholder="Religion" >
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="" class="col-sm-3 control-label col-form-label">Occupation</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="" placeholder="Occupation" >
-                                </div>
-                            </div>
                             <div class="modal-footer border-0 p-0">
                                 <button type="submit" class="btn btn-primary">Update Profile</button>
                             </div>
@@ -146,9 +128,9 @@
                         <form action="">
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="lname" class="col-sm-4 control-label col-form-label">Old Password</label>
+                                    <label for="lname" class="col-sm-4 control-label col-form-label">Current Password</label>
                                     <div class="col-sm-8">
-                                        <input type="password" class="form-control" id="" placeholder="Old Password" required>
+                                        <input type="password" class="form-control" id="" placeholder="Current Password" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">

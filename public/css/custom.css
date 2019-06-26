@@ -4,5 +4,10 @@
 }
 
 .border-top-green {
-    border-top: 0.25rem solid #80b425 !important;
+    border-top: 0.25rem solid #707568 !important;
+}
+
+.create-profile {
+    width: 65%;
+    margin: auto;
 }
