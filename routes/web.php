@@ -26,7 +26,6 @@ Route::get('/admin/profile','AdminController@profile');
 Route::get('/doctor','DoctorController@dashboard');
 Route::get('/doctor/appointment','DoctorController@appointment');
 Route::get('/doctor/patient','DoctorController@patient');
-Route::get('/doctor/prescription','DoctorController@prescription');
 Route::get('/doctor/report','DoctorController@report');
 Route::get('/doctor/profile','DoctorController@profile');
 

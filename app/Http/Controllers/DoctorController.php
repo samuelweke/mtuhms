@@ -23,13 +23,6 @@ class DoctorController extends Controller
         return view('doctor.patient');
     }
     
-
-    //Prescription
-    public function prescription(){
-        return view('doctor.prescription');
-    }
-
-
     //Report
     public function report(){
         return view('doctor.report');

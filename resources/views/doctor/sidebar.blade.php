@@ -34,15 +34,7 @@
           <span>Patient</span>
         </a>
       </li>
-
-      <!-- Prescription Sidebar -->
-      <li class="nav-item">
-        <a class="nav-link" href="{{ url('/doctor/prescription') }}" >
-          <i class="fas fa-fw fa-prescription"></i>
-          <span>Prescription</span>
-        </a>
-      </li>
-
+      
       <!-- Report Sidebar -->
       <li class="nav-item">
         <a class="nav-link" href="{{ url('doctor/report') }}" >

@@ -2,7 +2,7 @@
 
 @section('content')
     
-  @include('doctor.sidebar')
+  @include('patient.sidebar')
 
     <!-- Begin Page Content -->
     <div class="container-fluid">
