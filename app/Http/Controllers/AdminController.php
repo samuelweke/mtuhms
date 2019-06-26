@@ -22,6 +22,14 @@ class AdminController extends Controller
         return view('admin.nurse');
     }
 
+     public function lab(){
+        return view('admin.lab');
+    }
+
+    public function recordOfficer(){
+        return view('admin.record-officer');
+    }
+
     public function bed(){
         return view('admin.bed');
     }

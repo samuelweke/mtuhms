@@ -25,33 +25,15 @@
                   </thead>
                   <tbody>
                     <tr>
-                    <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
-                      <td>Titilayo Afolayan</td>
-                      <td>titilayo@hms.com</td>
-                      <td>08182837564</td>
-                      <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
-                    </tr>
-                    <tr>
-                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
-                      <td>Dolapo Olufemi</td>
-                      <td>dolapoo@gmail.com</td>
-                      <td>08023554318</td>
-                      <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
-                      <td>Funke Ayomide</td>
-                      <td>funkea@yahoo.com</td>
-                      <td>07034345523</td>
-                      <td>
-                          <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#edit-appointment">Edit</button>
-                          <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></button></td>
-                      </td>
+                        <td><img src="{{asset('img/user-pic.png')}}" alt="user-pic"></td>
+                        <td>Titilayo Afolayan</td>
+                        <td>titilayo@hms.com</td>
+                        <td>08182837564</td>
+                        <td>
+                            <button class="d-sm-inline-block btn btn-sm btn-success" data-toggle="modal" data-target="#">Edit</button>
+                            <button class="d-sm-inline-block btn btn-sm btn-primary" data-toggle="modal" data-target="#">View</button>
+                            <button class="d-sm-inline-block btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                        </td>
                     </tr>
                   </tbody>
                 </table>
