@@ -29,7 +29,7 @@
 							</div>
 							</div>
 						</div>
-						<button type="submit" class="btn btn-green btn-block">Register</button>
+						<button type="submit" class="btn btn-green btn-block">Sign Up</button>
 					</form>
 					<div class="signup-footer">
 						<a href=""><p>Already have an account? Sign In</p></a>
