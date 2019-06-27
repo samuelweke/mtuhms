@@ -43,3 +43,7 @@ Route::view('/signup', 'auth/signup');
 Route::view('/create-profile', 'create-profile');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
