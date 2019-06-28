@@ -15,19 +15,7 @@
 				<div class="form-wrapper">
 					<form method="POST" action="{{ route('register') }}">
 						@csrf             
-						<div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
+						
 						<div class="form-horizontal">
 							<!-- Email Input Form-->
 							<div class="form-group">
@@ -41,7 +29,7 @@
 							<!-- Password Input Form-->
 							<div class="form-group">
 								<div>
-									<input id="password" type="password" name="password"  class="form-control l @error('password') is-invalid @enderror" placeholder="Create a Password" required />
+									<input placeholder="Password" id="password" type="password" name="password"  class="form-control l @error('password') is-invalid @enderror" required />
 									@error('password')
 										<span class="invalid-feedback" role="alert">
 											<strong>{{ $message }}</strong>
@@ -59,7 +47,7 @@
 						<button type="submit" class="btn btn-green btn-block">Sign Up</button>
 					</form>
 					<div class="signup-footer">
-						<a href=""><p>Already have an account? Sign In</p></a>
+						<p>Already have an account? <a href="{{ url('/') }}">Sign In</a></p>
 					</div>
 				</div>
 			</div>
