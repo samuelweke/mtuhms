@@ -44,6 +44,7 @@ Route::view('/create-profile', 'create-profile');
 
 
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')
+    ->name('home');
