@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class PatientController extends Controller
 {
+    public function __construct(){
+        $this->middleware('auth');
+    }
+
 
     //Dashboard
     public function dashboard(){

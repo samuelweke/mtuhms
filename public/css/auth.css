@@ -15,9 +15,18 @@
     padding: 50px 15px 50px 15px;
 }
 
+.login.signup {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 .login .header {
     padding-top: 25px;
     padding-bottom: 60px;
+}
+
+.header.sign-up {
+    padding-bottom: 40px;
 }
 
 .login h1 {

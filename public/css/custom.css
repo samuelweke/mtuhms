@@ -10,4 +10,24 @@
 .create-profile {
     width: 60%;
     margin: auto;
+    margin-top: 60px;
+}
+
+.optional {
+    font-size: 12px;
+    font-style: italic;
+}
+
+@media (max-width: 1055px) {
+    .create-profile {
+        width: 80%;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .create-profile {
+        width: 90%;
+        margin-top: 60px;
+    }
 }

@@ -38,13 +38,9 @@ Route::get('/patient/report', 'PatientController@report');
 Route::get('/patient/profile', 'PatientController@profile');
 
 
-Route::view('/', 'auth/signin');
+Route::view('/', 'auth/login');
 Route::view('/signup', 'auth/signup');
 Route::view('/create-profile', 'create-profile');
 
 
-
-Auth::routes(['verify' => true]);
-
-Route::get('/home', 'HomeController@index')
-    ->name('home');
+Auth::routes();
